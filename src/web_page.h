@@ -489,7 +489,7 @@ body {
 
   <!-- Pie de p&aacute;gina -->
   <div style="text-align:center;padding:15px 10px;font-size:0.65em;color:#444;border-top:1px solid var(--border);margin-top:10px">
-    <div>&#x2B22; Conway's Life ESP8266 &mdash; Firmware v<span id="footerVersion">2.0</span></div>
+    <div>&#x2B22; Conway's Life ESP8266 &mdash;<span id="footerVersion"></span></div>
     <div style="margin-top:3px">
       Desarrollado por <span style="color:var(--accent2)">wencescarlos</span> &mdash;
       <a href="https://github.com/wencescarlos/conways_life" target="_blank" 
