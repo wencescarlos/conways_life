@@ -11,10 +11,13 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
+    permissions:
+     contents: write
 
     steps:
       - name: Checkout código
         uses: actions/checkout@v4
+        uses: arduino/setup-arduino-cli@v1
 
       # ── Extraer versión del firmware desde el código fuente ──
       - name: Extraer versión de firmware
