@@ -5,7 +5,7 @@
  *  
  *  Autor:    wencescarlos
  *  GitHub:   https://github.com/wencescarlos/conways_life
- *  Versión:  2.0
+ *  Versión:  1.0
  *  Licencia: MIT
  *  
  *  Hardware: Wemos D1 Mini (ESP8266) + ILI9341 2.8" TFT Táctil
