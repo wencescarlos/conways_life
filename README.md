@@ -49,7 +49,7 @@ GND            →  GND
 Descarga el `.bin` desde [Releases](https://github.com/wencescarlos/conways_life/releases) y flashea:
 
 ```bash
-esptool.py --chip esp8266 --port /dev/ttyUSB0 --baud 921600 write_flash 0x0 conways_life_v2.0.bin
+esptool.py --chip esp8266 --port /dev/ttyUSB0 --baud 921600 write_flash 0x0 conways_life_v1.0.bin
 ```
 
 ### Compilar desde código fuente
@@ -155,8 +155,8 @@ Para crear una release:
 
 ```bash
 # Actualiza FW_VERSION en conway_life.cpp, luego:
-git tag v2.0
-git push origin v2.0
+git tag v1.0
+git push origin v1.0
 ```
 
 GitHub Actions compilará y publicará el `.bin` automáticamente.
