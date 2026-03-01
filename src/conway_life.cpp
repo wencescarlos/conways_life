@@ -54,7 +54,7 @@
 #include <time.h>
 
 // ─── Información del Firmware ──────────────────────────────────
-#define FW_VERSION    "v1.0"
+#define FW_VERSION    "1.0"
 #define FW_AUTHOR     "wencescarlos"
 #define FW_GITHUB     "https://github.com/wencescarlos/conways_life"
 #define FW_NAME       "Conway's Life ESP8266"
